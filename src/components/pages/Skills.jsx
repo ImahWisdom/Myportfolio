@@ -17,7 +17,7 @@ import {
   SiMysql,
 } from "react-icons/si";
 
-import "./skills.css";
+import "./Skills.css";
 
 export default function SkillsPage() {
   const navigate = useNavigate();
