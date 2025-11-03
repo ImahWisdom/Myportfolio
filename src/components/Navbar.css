@@ -17,9 +17,9 @@
   }
   
   /* Keep space for navbar so it doesn’t overlap content */
-  body {
+  /* body {
     padding-top: 80px;
-  }
+  } */
   
   /* ===== Logo Text ===== */
   .logo-text {

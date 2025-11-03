@@ -1,0 +1,356 @@
+/* ============================
+   GLOBAL SPACING STANDARDIZATION
+============================ */
+section {
+    scroll-margin-top: 80px;
+  }
+  
+  /* ============================
+     ABOUT SECTION
+  ============================ */
+  .about-section {
+    width: 100%;
+    padding: 80px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  
+  .about-left {
+    flex: 1 1 450px;
+    min-width: 300px;
+  }
+  
+  .about-subtitle {
+    color: #2563eb;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+  
+  .about-title {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 18px;
+    color: #0a0a0a;
+  }
+  
+  .about-intro,
+  .about-desc {
+    color: #444;
+    line-height: 1.75;
+    margin-bottom: 16px;
+    max-width: 520px;
+    font-size: 16px;
+  }
+  
+  /* Stats */
+  .about-stats {
+    margin-top: 28px;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .stat h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #2563eb;
+  }
+  
+  .stat p {
+    font-size: 15px;
+    opacity: 0.8;
+  }
+  
+  /* Image */
+  .about-right {
+    flex: 1 1 380px;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-image-wrapper {
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1/1;
+    border-radius: 18px;
+    overflow: hidden;
+    border: 4px solid #2563eb;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+  
+  .about-image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Responsive - About */
+  @media (max-width: 900px) {
+    .about-section {
+      flex-direction: column;
+      text-align: center;
+      gap: 45px;
+    }
+  
+    .about-left {
+      max-width: 650px;
+    }
+  
+    .about-stats {
+      justify-content: center;
+      gap: 28px;
+    }
+  
+    .about-image-wrapper {
+      max-width: 320px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .about-title {
+      font-size: 30px;
+    }
+  
+    .about-intro,
+    .about-desc {
+      font-size: 15px;
+    }
+  
+    .stat h2 {
+      font-size: 28px;
+    }
+  }
+  
+  /* ============================
+     STORY SECTION
+  ============================ */
+  .story-section {
+    width: 100%;
+    padding: 100px 5%;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  .story-header {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 60px auto;
+  }
+  
+  .story-subtitle {
+    color: #2563eb;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .story-title {
+    font-size: 42px;
+    font-weight: 800;
+    margin-bottom: 15px;
+  }
+  
+  .story-intro {
+    color: #555;
+    line-height: 1.7;
+    font-size: 16px;
+  }
+  
+  .story-content {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .story-box {
+    flex: 1;
+    min-width: 0;
+  }
+  
+  .story-heading {
+    color: #2563eb;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  
+  .story-text {
+    color: #444;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  /* Responsive - Story */
+  @media (max-width: 900px) {
+    .story-section {
+      padding: 80px 5%;
+    }
+  
+    .story-content {
+      flex-direction: column;
+      gap: 40px;
+    }
+  
+    .story-title {
+      font-size: 34px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .story-section {
+      padding: 60px 5%;
+    }
+  
+    .story-title {
+      font-size: 28px;
+    }
+  
+    .story-intro {
+      font-size: 15px;
+    }
+  
+    .story-text {
+      font-size: 15px;
+    }
+  }
+  
+  /* ============================
+     VALUES SECTION
+  ============================ */
+  .ab-section {
+    padding: 80px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .ab-header h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .ab-header p {
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    line-height: 1.6;
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 22px;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 28px 18px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .icon {
+    font-size: 3rem;
+    color: #0070f3;
+    margin-bottom: 15px;
+  }
+  
+  .card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
+  @media (min-width: 600px) {
+    .cards-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .cards-container {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  /* ============================
+     CTA SECTION
+  ============================ */
+  .ct-section {
+    background-color: #0070f3;
+    color: #fff;
+    text-align: center;
+    padding: 90px 20px;
+  }
+  
+  .ct-content {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .ct-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 14px;
+  }
+  
+  .ct-content p {
+    font-size: 1.05rem;
+    max-width: 700px;
+    margin: 0 auto 32px auto;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.95);
+  }
+  
+  .ct-button {
+    display: inline-block;
+    padding: 14px 32px;
+    background-color: #fff;
+    color: #0070f3;
+    font-weight: 700;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  }
+  
+  .ct-button:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+  }
+  
+  /* Mobile - CTA */
+  @media (max-width: 600px) {
+    .ct-content h2 {
+      font-size: 1.9rem;
+    }
+  
+    .ct-content p {
+      font-size: 1rem;
+    }
+  
+    .ct-button {
+      padding: 12px 24px;
+    }
+  }
+  
