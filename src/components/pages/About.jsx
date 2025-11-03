@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLightbulb, FaCode, FaUser, FaChartLine } from "react-icons/fa";
 import "./About.css";
-import img from "../../assets/Home/profile1.jpg";
+import img from "../../assets/Home/profile.png";
 
 const values = [
   {

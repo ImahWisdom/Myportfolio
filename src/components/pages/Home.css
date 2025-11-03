@@ -248,7 +248,8 @@
   }
 
   .home-about-image {
-    height: 300px;
+    
+    width: 100%;
     max-width: 300px;
   }
 }
@@ -259,6 +260,7 @@
 .home-featured-projects {
   padding: 100px 5%;
   text-align: center;
+ 
 }
 
 .home-projects-subtitle {
@@ -362,6 +364,9 @@
 
   .home-project-buttons {
     justify-content: center;
+  }
+  .home-featured-projects {
+    margin-top: -80px;
   }
 }
 
