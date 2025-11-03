@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./projects.css";
+import "./Projects.css";
 
 import tourImg from "../../assets/Projects/tour.png";
 import countryImg from "../../assets/Projects/countrymap.png";
