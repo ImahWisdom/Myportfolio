@@ -1,9 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import img1 from "../../assets/Home/profile1.jpg";
-import tourImg from "../../assets/projects/tour.png";
-import coffeeImg from "../../assets/projects/coffee.png";
-import countryImg from "../../assets/projects/countrymap.png";
+import tourImg from "../../assets/Projects/tour.png";
+import coffeeImg from "../../assets/Projects/coffee.png";
+import countryImg from "../../assets/Projects/countrymap.png";
 import "./Home.css";
 
 const Home = () => {

@@ -2,11 +2,11 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import "./projects.css";
 
-import tourImg from "../../assets/projects/tour.png";
-import countryImg from "../../assets/projects/countrymap.png";
-import intenseImg from "../../assets/projects/intensegym.png";
-import bakerzImg from "../../assets/projects/Bakezbite.png";
-import coffeeImg from "../../assets/projects/coffee.png";
+import tourImg from "../../assets/Projects/tour.png";
+import countryImg from "../../assets/Projects/countrymap.png";
+import intenseImg from "../../assets/Projects/intensegym.png";
+import bakerzImg from "../../assets/Projects/Bakezbite.png";
+import coffeeImg from "../../assets/Projects/coffee.png";
 
 const projectsData = [
   {
