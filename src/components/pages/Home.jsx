@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 // import img from "../../assets/Home/profile.png"
 import {profile1} from "../../assets/Home/home"
+import img from "../../assets/Home/profile.png";
 import tourImg from "../../assets/Projects/tour.png";
 import coffeeImg from "../../assets/Projects/coffee.png";
 import countryImg from "../../assets/Projects/countrymap.png";
@@ -87,9 +88,15 @@ const Home = () => {
         </div>
 
         <div className="home-about-right">
-          <div className="home-about-image">
-            <img src={profile1} alt="profile" loading="lazy" />
+          {/* <div className="home-about-image">
+            <img src={profile1} alt="profile"/>
+          </div> */}
+          
+        <div className="about-right">
+          <div className="about-image-wrapper">
+            <img src={img} alt="Profile" />
           </div>
+        </div>
         </div>
       </section>
 
