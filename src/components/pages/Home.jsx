@@ -88,7 +88,7 @@ const Home = () => {
 
         <div className="home-about-right">
           <div className="home-about-image">
-            <img src={profile1} alt="profile" />
+            <img src={profile1} alt="profile" loading="lazy" />
           </div>
         </div>
       </section>
