@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import img from "../../assets/Home/profile.png"
 import tourImg from "../../assets/Projects/tour.png";
 import coffeeImg from "../../assets/Projects/coffee.png";
 import countryImg from "../../assets/Projects/countrymap.png";
@@ -86,7 +87,7 @@ const Home = () => {
 
         <div className="home-about-right">
           <div className="home-about-image">
-            <img src="/profile.png" alt="profile" loading="lazy" />
+            <img src={img} alt="profile" loading="lazy" />
           </div>
         </div>
       </section>
