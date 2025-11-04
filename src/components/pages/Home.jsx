@@ -87,15 +87,14 @@ const Home = () => {
         </div>
 
         <div className="home-about-right">
-          <div className="home-about-image">
-          <img src={img} alt="Profile" />
-          </div>
-          
-        {/* <div className="about-right">
+        <div className="about-right">
           <div className="about-image-wrapper">
             <img src={img} alt="Profile" />
           </div>
-        </div> */}
+        </div>
+          {/* <div className="home-about-image">
+          <img src={img} alt="Profile" />
+          </div> */}
         </div>
       </section>
 
