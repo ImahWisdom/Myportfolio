@@ -83,7 +83,7 @@ const Home = () => {
             new tools and techniques to deliver quality work that stands out.
           </p>
 
-          <a href="/about" className="home-about-btn">Learn More →</a>
+          <NavLink to ="/about" className="home-about-btn">Learn More →</NavLink>
         </div>
 
         <div className="home-about-right">
