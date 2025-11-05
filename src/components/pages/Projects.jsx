@@ -168,7 +168,8 @@ export default function ProjectsPage() {
               Start Project
             </button>
 
-            <a href="/resume.pdf" download="Imah_Wisdom_Resume.pdf" aria-label="Download resume PDF" className="proj-btn-outline-white">
+           
+            <a href="/IMAH_WISDOM_CV_(1).pdf" download="Imah_Wisdom_CV_(1).pdf" aria-label="Download resume PDF" className="proj-btn-outline-white">
               Download Resume
             </a>
           </div>
